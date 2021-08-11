@@ -10,6 +10,7 @@ specifiers:
   nodemon: ^2.0.7
   prettier: ^2.2.1
   ts-node: ^9.1.1
+  tsconfig-paths: ^3.10.1
   typescript: ^4.1.5
 
 devDependencies:
@@ -22,6 +23,7 @@ devDependencies:
   nodemon: 2.0.9
   prettier: 2.3.2
   ts-node: 9.1.1_typescript@4.3.5
+  tsconfig-paths: 3.10.1
   typescript: 4.3.5
 
 packages:
@@ -867,6 +869,14 @@ packages:
     resolution: {integrity: sha1-Wx85evx11ne96Lz8Dkfh+aPZqJg=}
     dev: true
 
+  /json5/2.2.0:
+    resolution: {integrity: sha512-f+8cldu7X/y7RAJurMEJmdoKXGB/X550w2Nr3tTbezL6RwEE/iMcm+tZnXeoZtKuOq6ft8+CqzEkrIgx1fPoQA==}
+    engines: {node: '>=6'}
+    hasBin: true
+    dependencies:
+      minimist: 1.2.5
+    dev: true
+
   /keyv/3.1.0:
     resolution: {integrity: sha512-9ykJ/46SN/9KPM/sichzQ7OvXyGDYKGTaDlKMGCAlg2UK8KRy4jb0d8sFc+0Tt0YYnThq8X2RZgCg74RPxgcVA==}
     dependencies:
@@ -1227,6 +1237,11 @@ packages:
       ansi-regex: 5.0.0
     dev: true
 
+  /strip-bom/3.0.0:
+    resolution: {integrity: sha1-IzTBjpx1n3vdVv3vfprj1YjmjtM=}
+    engines: {node: '>=4'}
+    dev: true
+
   /strip-json-comments/2.0.1:
     resolution: {integrity: sha1-PFMZQukIwml8DsNEhYwobHygpgo=}
     engines: {node: '>=0.10.0'}
@@ -1284,6 +1299,14 @@ packages:
       source-map-support: 0.5.19
       typescript: 4.3.5
       yn: 3.1.1
+    dev: true
+
+  /tsconfig-paths/3.10.1:
+    resolution: {integrity: sha512-rETidPDgCpltxF7MjBZlAFPUHv5aHH2MymyPvh+vEyWAED4Eb/WeMbsnD/JDr4OKPOA1TssDHgIcpTN5Kh0p6Q==}
+    dependencies:
+      json5: 2.2.0
+      minimist: 1.2.5
+      strip-bom: 3.0.0
     dev: true
 
   /tslib/1.14.1:
