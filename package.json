@@ -1,5 +1,6 @@
 {
   "private": true,
+  "module": "ES2020",
   "scripts": {
     "dev": "nodemon",
     "build": "tsc && tsconfig-replace-paths --project tsconfig.json",
